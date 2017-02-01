@@ -8,6 +8,8 @@ __IMPORTANT!__ These docs are based on an unreleased version of the API. If you 
 
 Our realtime API is composed of two elements: [Method Calls][1] and [Subscriptions][2]. Both of them are supported directly in the websocket connection.
 
+The websocket server is available at the uri: {protocol}://{baseUrl}/websocket, where {protocol} can be "wss" or "ws" depending on your server configuration.
+
 To make it possible to have everything working on the same connection we use RPC with the following format.
 
 ```json
